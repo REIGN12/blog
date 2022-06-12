@@ -25,6 +25,7 @@ jobs:
       run: |
         node -v
         npm i hexo-cli --location=global
+        npm i --save hexo-theme-fluid
         npm i
         hexo clean
         hexo g
